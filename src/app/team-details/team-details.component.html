@@ -1,0 +1,8 @@
+<div *ngIf="selectedTeam">
+  <h2>Team Details</h2>
+  Team name : <input [(ngModel)]="selectedTeam.name"/>
+  <ul>
+    <li><span>Player 1: </span><input [(ngModel)]="selectedTeam.member_1"/></li>
+    <li><span>Player 2: </span><input [(ngModel)]="selectedTeam.member_2"/></li>
+  </ul>
+</div>
