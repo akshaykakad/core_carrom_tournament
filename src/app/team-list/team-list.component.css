@@ -1,0 +1,24 @@
+.team_names {
+    background: lightblue;
+    width: 100px;
+    padding: 2px;
+    margin: 2px;
+}
+
+.simple_list_style {
+    list-style: none;
+    padding-left: 10px;
+   }
+
+h4{
+    margin-top:2px;
+    margin-bottom: 2px;
+}
+
+li:hover{
+    background: gray;
+}
+
+.selected_team{
+    background: gray;
+}

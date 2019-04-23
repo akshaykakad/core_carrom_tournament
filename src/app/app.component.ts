@@ -9,11 +9,4 @@ import {Teams} from '../Teams';
 })
 export class AppComponent {
   title = 'CORE CARROM TOURNAMENT';
-  team:Team = {id: 1, name:'AllStar', member_1:'Sandeep', member_2:'Akshay'};
-  selectedTeam:Team;
-  teams: Team[] = Teams;
-
-  selectTeam(id : number):void{
-    this.selectedTeam = Teams.find(team => team.id === id);
-  }
 }

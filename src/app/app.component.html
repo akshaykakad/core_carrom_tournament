@@ -1,9 +1,3 @@
 <h1>{{ title }}</h1>
-<h2>Team Names:</h2>
-<ul class="remove_bullets">
-  <li class="team_banner" *ngFor = "let team of teams" (click)="selectTeam(team.id)">
-    <h4>{{team.name}}</h4>
-  </li>
-</ul>
-
-<app-team-details [selectedTeam] = "selectedTeam" ></app-team-details>
+<h2>Participated Teams:</h2>
+<app-team-list></app-team-list>

@@ -1,0 +1,6 @@
+<ul class="simple_list_style">
+  <li class="team_names" *ngFor = "let team of teams" (click)="selectTeam(team.id)" [ngClass]="{selected_team: team === selectedTeam}">
+    <h4>{{team.name}}</h4>
+  </li>
+</ul>
+<app-team-details [selectedTeam] = "selectedTeam" ></app-team-details>
