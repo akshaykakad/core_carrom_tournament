@@ -3,10 +3,6 @@
 <ul class="remove_bullets">
   <li class="team_banner" *ngFor = "let team of teams" (click)="selectTeam(team.id)">
     <h4>{{team.name}}</h4>
-    <ul>
-      <li>{{team.member_1}}</li>
-      <li>{{team.member_2}}</li>
-    </ul>
   </li>
 </ul>
 
